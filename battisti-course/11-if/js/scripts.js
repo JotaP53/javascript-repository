@@ -1,9 +1,9 @@
-
+var idade = 18;
 
 console.log("Antes do If");
 
-if(false) {
-    console.log("Testando o If");
+if(idade >= 18) {
+    console.log("Pode fazer a carteira de habilitação;");
 }
 
 console.log("Depois do If");
